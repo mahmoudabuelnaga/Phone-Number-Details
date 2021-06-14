@@ -7,7 +7,7 @@ number = '.....'
 
 # C: Country
 # H: History
-ch_number = phonenumbers.parse(number)
+ch_number = phonenumbers.parse(number ,'CH')
 print(ch_number)
 print(geocoder.description_for_number(ch_number, 'en'))
 print(carrier.name_for_number(ch_number, "en"))
